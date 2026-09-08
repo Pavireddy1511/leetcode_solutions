@@ -16,6 +16,7 @@ class Solution:
 
         while q:
             level=[]
+        
             for i in range(len(q)):
                 temp=q.popleft()
                 level.append(temp.val)
