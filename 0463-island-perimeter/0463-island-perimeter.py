@@ -4,9 +4,7 @@ class Solution:
             return 1
         if grid[i][j]==2:
             return 0 
-        grid[i][j] = 2  
-        if grid[i][j]==1:
-            return 0     
+        grid[i][j] = 2      
         return (self.dfs(grid,i-1,j)+
         self.dfs(grid,i+1,j)+
         self.dfs(grid,i,j-1)+
